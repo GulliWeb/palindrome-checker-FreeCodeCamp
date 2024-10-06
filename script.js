@@ -21,9 +21,9 @@ const isPalindroma = () =>{
         palindroma = palindroma + word[i]
     }
     if(palindroma === word){
-        console.log(`La parola ${word} è palindroma`)
+        btnResult.innerText = `${word} is a palindrome`
     } else{
-        console.log(`La parola ${word} non è palindroma`)
+        btnResult.innerText = `${word} is not a palindrome.`
     }
   }
 }
